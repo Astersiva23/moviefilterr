@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title> Movie Database </title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                TableFilter
+            </a>
+        </div>
+    </nav>
+
+    <main class="py-4">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        Example
+                    </div>
+                    <div class="card-body">
+
+                        <div style="margin-bottom: 20px;">
+
+                            <input type="text" id="filter0" placeholder="Filter By Id">
+                            <input type="text" id="filter1" placeholder="Filter By Movie Name">
+                            <input type="text" id="filter2" placeholder="Filter By Genere">
+
+                        </div>
+
+                        <table id="filter" class="table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Movie Name</th>
+                                    <th>Genre</th>
+                                    <th>Release Year</th>
+                                    <th>Ratings</th>
+                                    <th>Box Office Collection</th>
+                                </tr>
+                            </thead>
+                
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Leo</td>
+                                    <td>Action/Thriller</td>
+                                    <td>2023</td>
+                                    <td>9.5</td>
+                                    <td>1000cr</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>2</td>
+                                    <td>Vikram</td>
+                                    <td>Action</td>
+                                    <td>2022</td>
+                                    <td>9</td>
+                                    <td>475cr</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Jailer</td>
+                                    <td>Thriller</td>
+                                    <td>2023</td>
+                                    <td>9.3</td>
+                                    <td>600cr</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>PS 2</td>
+                                    <td>drama</td>
+                                    <td>2023</td>
+                                    <td>8</td>
+                                    <td>300cr</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Remo</td>
+                                    <td>Romance</td>
+                                    <td>2016</td>
+                                    <td>9.35</td>
+                                    <td>155cr</td>
+                                </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Trichitrambalam</td>
+                                        <td>Romance/Drama</td>
+                                        <td>2022</td>
+                                        <td>9.35</td>
+                                        <td>150cr</td>
+                                    </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>Por Thohzlil</td>
+                                            <td>pyscho thriller</td>
+                                            <td>2023</td>
+                                            <td>9.10</td>
+                                            <td>90cr</td>
+                                        </tr>
+                            </tbody>
+                        </table>
+                
+                    </div>
+                </div>    
+                </div>
+            </div>
+
+
+        </div>    
+
+    </main>
+
+    <script src="filter.js" defer></script>
+</body>
+</html>
